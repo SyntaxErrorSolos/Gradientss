@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&family=Merriweather:wght@300&family=Poppins:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gradientss</title>
+  </head>
+
+  <body class="bg-white dark:bg-kindaBlack">
+    <div class="text-center py-72">
+      <h1
+        class="bg-gradient-to-r from-indigo-700 to-violet-700 bg-clip-text text-transparent text-7xl font-bold font-Poppins"
+      >
+        Gradients are
+        <span class="bg-gradient-to-r from-1 to-2 text-transparent bg-clip-text"
+          >cool</span
+        >
+      </h1>
+      <h2 class="font-Poppins text-5xl font-light py-5 dark:text-white">
+        Want the
+        <span
+          class="text-gradient1 dark:text-light"
+          >perfect</span
+        >
+        gradient?
+      </h2>
+      <button
+      id="click"
+      class="hover:bg-white hover:text-black text-white font-Poppins font-bold border-2 border-white transition-all rounded-lg py-2 px-5"
+    >
+      Generate
+    </button>
+    </div>
+  </body>
+  <script>
+    document.getElementById("click").addEventListener("click", function() {
+      window.location.href = "gen.html"
+    })
+  </script>
+</html>
