@@ -14,7 +14,7 @@
     />
   </head>
   <body class="dark:bg-kindaBlack">
-    <div class="py-[20rem] space-x-5">
+    <div class="justify-center py-[20rem] space-x-5">
       <div class="flex justify-center">
         <input
           id="input"
@@ -39,12 +39,17 @@
         </button>
       </div>
       <div class="flex justify-center">
-          <div id="created" class="rounded-lg w-[600px] h-[100px]">
-
-          </div>
+        <input type="range" min="0" max="5" name="slider" id="slider" />
+      </div>
+      <div class="flex justify-center py-5">
+        <h1 class="text-black dark:text-white font-Poppins">
+          You can adjust the slider to adjust the darken / bright values!
+        </h1>
+      </div>
+      <div class="flex justify-center">
+        <div id="created" class="rounded-lg w-[600px] h-[100px]"></div>
       </div>
     </div>
   </body>
-  <script src="create.js" type="module">
-  </script>
+  <script src="create.js" type="module"></script>
 </html>
